@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Jared's beginner website</title>
+        <subtitle>A work in progress, clearly.</subtitle>
+        <p>It's pretty barren for now but feel free to kick your feet up and relax.</p>
+    *I tried multiple ways to get this image to load but was struggling, will try again another time.*
+    <img src=”https://cdn.shopify.com/s/files/1/0941/8552/products/Kingdom-Hearts---Crown-_Converted_1024x1024.jpg?v=1549598501” alt="3 Pointed Crown from my fave game"/><img>
+    <a href="https://www.youtube.com/watch?v=CEw-7cMnBDY">Here's a fun song I've been listening to recently!</a>
+    </head>
