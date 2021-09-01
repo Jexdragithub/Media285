@@ -1,0 +1,9 @@
+This is the basic website we were set to create for the first week of school.
+I was generally pretty busy this past first week so I wasn't able to fix a big issue I was having which was figuring
+out how to properly display the image that I had linked through a URL, from a direct file, etc. All methods I was trying
+were not working out but I'm sure this is a simple issue I am just not seeing the answer to just yet.
+Otherwise, I forgot a majority of the different, intricate steps for sectioning code but I will make sure I write down
+how to perform it during next class. I for the time being know how to create titles, subtitles, paragraphs, hyperlinks,
+and some other basic website building blocks.
+
+JaredCWebsite.html
