@@ -1,0 +1,91 @@
+.box1 {
+  height: 300px;
+  width: 150px;
+  background-color: #190455;
+  position: absolute;
+  left: 25px;
+  top:70px;
+  z-index: 2;
+}
+.box2 {
+  height: 300px;
+  width: 150px;
+  background-color: #2e1080;
+  position: absolute;
+  left: 105px;
+  top: 155px;
+  z-index: 2;
+}
+
+.box3 {
+  height: 300px;
+  width: 150px;
+  background-color: #44249c;
+  position: absolute;
+  left: 185px;
+  top: 240px;
+  z-index: 2;
+}
+.box4 {
+  height: 300px;
+  width: 150px;
+  background-color: #5634b3;
+  position: absolute;
+  left: 265px;
+  top: 155px;
+  z-index: 2;
+}
+.box5 {
+  height: 300px;
+  width: 150px;
+  background-color: #714fce;
+  position: absolute;
+  left: 345px;
+  top: 240px;
+  z-index: 2;
+}
+.box6 {
+  height: 300px;
+  width: 150px;
+  background-color: #9574f0;
+  position: absolute;
+  left: 425px;
+  top: 155px;
+  z-index: 2;
+}
+.text {
+  position: absolute;
+  color: black;
+  top: 700px;
+  left: 375;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.text2 {
+  position: relative;
+  color: black;
+  top: -49px;
+  left: 250;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+
+.background1 {
+  height: 700px;
+  width: 585px;
+  background-color:#001bb1;
+  z-index: 0;
+}
+.background2 {
+  height: 650px;
+  width: 550px;
+  background-color:#3c59ff;
+  position:absolute;
+  top: 25px;
+  left:25px;
+  z-index: 1;
+}
+a:hover {
+  background-color: rgb(183, 27, 189);
+}
