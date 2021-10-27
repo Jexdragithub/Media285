@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="original" content="original design" />
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #place {
+                display: flex;
+            }
+            @keyframes rotation {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            .bubble {
+                animation-name: rotation;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-direction: normal;
+                background-color: transparent;
+                z-index: 9;
+            }
+            .bubble1 {
+                animation-duration: 12s;
+            }
+            .bubble:hover {
+                animation-play-state: paused;
+            }
+            /* Above is the animation for the question bubble */
+        </style>
+    </head>
+<body>
+    <body style="background-color: rgb(75, 75, 218);"></body>
+            <div class="text2">
+                <h1>Jared Castillo's Website!</h1>
+            <div class=box1></div>
+            <div class=borb>
+                <a href="https://github.com/Jexdragithub/Media285">Here is a link to my Github for class!</a>
+            </div>
+            <div class=borb2>
+                <a href="https://www.youtube.com/watch?v=vxoKuhPca-A">Here's a recent song I've been listening too!</a>
+            </div>
+            <div class=box2></div>
+            <div class=box3></div>
+            <div id="place">
+                <a href="faq.html">
+                    <img
+                        class="bubble bubble1"
+                        src="bubble.png"
+                        width="140"
+                        height="140"
+                    />
+                </a>
+
+            </div>
+
+        </div>
+        </div>
+</body>
+</html>

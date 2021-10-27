@@ -1,0 +1,133 @@
+
+  .borb {
+    width: 225px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(62, 211, 221);
+    transition: background-color 200ms ease-in,
+        transform 200ms ease-out 100ms;
+    z-index: 10;
+}
+
+.borb2 {
+    width: 225px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(62, 211, 221);
+    transition: background-color 200ms ease-in,
+        transform 200ms ease-out 100ms;
+    z-index: 10;
+}
+
+.borb:hover {
+    background-color: rgb(144, 179, 255);
+    transform: translateX(25px);
+}
+
+.borb:active {
+    background-color: purple;
+    transition-duration: 0s;
+}
+.borb2:hover {
+    background-color: rgb(144, 179, 255);
+    transform: translateX(25px);
+}
+
+.borb2:active {
+    background-color: purple;
+    transition-duration: 0s;
+}
+.box1 {
+    width: 100%;
+    height: 80%;
+    background-color: #a5ddfd;
+    position: absolute;
+    z-index: -10;
+}
+.box2 {
+    width: 100%;
+    height: 1000%;
+    background-color: #6fbce9;
+    position: absolute;
+    z-index: -9;
+}
+.box3 {
+    width: 100%;
+    top: 0%;
+    height: 40%;
+    background-color: #489ecf;
+    position: absolute;
+    z-index: -8;
+}
+.text2 {
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:small;
+  }
+  @media screen and (max-width: 730px){
+    .borb {
+        width: 225px;
+        height: 25px;
+        border-radius: 5px;
+        margin-bottom: 4px;
+        background-color: rgb(221, 62, 142);
+        transition: background-color 200ms ease-in,
+            transform 200ms ease-out 100ms;
+        z-index: 10;
+    }
+    .borb:hover {
+        background-color: rgb(255, 144, 144);
+        transform: translateX(25px);
+    }
+    
+    .borb:active {
+        background-color: purple;
+        transition-duration: 0s;
+    }
+    .borb2 {
+        width: 225px;
+        height: 25px;
+        border-radius: 5px;
+        margin-bottom: 4px;
+        background-color: rgb(221, 62, 142);
+        transition: background-color 200ms ease-in,
+            transform 200ms ease-out 100ms;
+        z-index: 10;
+    }
+    .borb2:hover {
+        background-color: rgb(255, 144, 144);
+        transform: translateX(25px);
+    }
+    
+    .borb2:active {
+        background-color: purple;
+        transition-duration: 0s;
+    }
+    .box1 {
+        width: 100%;
+        height: 80%;
+        background-color: #fda5b8;
+        position: absolute;
+        z-index: -10;
+    }
+    .box2 {
+        width: 100%;
+        height: 1000%;
+        background-color: #e96f75;
+        position: absolute;
+        z-index: -9;
+    }
+    .box3 {
+        width: 100%;
+        top: 0%;
+        height: 40%;
+        background-color: #c53655;
+        position: absolute;
+        z-index: -8;
+    }
+
+  }
